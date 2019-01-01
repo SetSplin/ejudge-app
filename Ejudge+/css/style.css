@@ -382,3 +382,12 @@ html .info-table-line tbody {
 html table.b0 {
   border-style: solid;
 }
+
+.new-year {
+  background: url('chrome-extension://__MSG_@@extension_id__/img/blackav.jpg') no-repeat;
+  right: 0px;
+  bottom: 0px;
+  width: 640px;
+  height: 716px;
+  position: absolute;
+}

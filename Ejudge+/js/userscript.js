@@ -107,6 +107,14 @@ const tableUpdate = () => {
     })
 }
 
+//////////// Not Ejudge ////////////
+
+const notEjudge = () => {
+    const div = document.createElement('div')
+    div.className = "new-year"
+    document.body.appendChild(div)
+}
+
 //////////// Main ////////////
 
 const problemsUpdate = () => {
@@ -144,6 +152,7 @@ const kokosUpdate = () => {
     const titleElem = document.querySelector("#l12 .main_phrase")
     if (!titleElem) {
         console.log("Title not found, not ejudge page. Exiting Ejudge+...")
+        notEjudge()
         return
     }
 
